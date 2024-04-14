@@ -5,7 +5,7 @@
 
 namespace App;
 
-final class init
+final class Init
 {
     /**
      * Store all the classes inside an array
