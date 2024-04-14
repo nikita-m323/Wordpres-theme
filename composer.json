@@ -1,0 +1,22 @@
+{
+  "authors": [
+    {
+      "email": "nikita.makuha.work@gmail.com",
+      "name": "NikitaMakukha"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "App/"
+    }
+  },
+  "require": {
+    "timber/timber": "2.x-dev",
+    "unsplash/unsplash": "^3.2"
+  },
+  "config": {
+    "allow-plugins": {
+      "composer/installers": true
+    }
+  }
+}

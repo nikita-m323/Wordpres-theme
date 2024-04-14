@@ -1,0 +1,20 @@
+{
+  "name": "acf/unsplash-slider",
+  "title": "Unsplash slider",
+  "description": "Unsplash slider",
+  "category": "custom-category",
+  "icon": "block-default",
+  "keywords": ["Unsplash slider", "unsplash", "slider"],
+  "acf": {
+    "mode": "edit",
+    "renderTemplate": "render.php"
+  },
+  "supports": {
+    "mode": true,
+    "anchor": true
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": ["swiper", "file:./style-index.css"],
+  "viewScript": ["swiper", "file:./view.js"]
+}

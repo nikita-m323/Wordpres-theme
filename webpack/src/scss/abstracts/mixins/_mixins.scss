@@ -1,0 +1,17 @@
+@mixin theme-transition($value, $time: 0.2s, $type: ease-in-out) {
+	-webkit-transition: $value $time $type;
+	-moz-transition: $value $time $type;
+	-o-transition: $value $time $type;
+	transition: $value $time $type;
+}
+
+@mixin transition($x...) {
+	-webkit-transition: $x;
+	-moz-transition: $x;
+	-o-transition: $x;
+	transition: $x;
+}
+
+@mixin container-max-width($width) {
+	max-width: $width + 32px;
+}

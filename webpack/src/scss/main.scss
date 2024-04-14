@@ -1,0 +1,48 @@
+@import "~normalize.css/normalize.css";
+@import '~bootstrap/dist/css/bootstrap-grid.min.css';
+@import "abstracts/abstracts";
+@import "base/base";
+@import "parts/header";
+@import "parts/footer";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  box-sizing: border-box;
+  font-family: $font__primary;
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  b, strong {
+    font-weight: 600;
+  }
+
+  p {
+    margin: 14px 0;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  & > main,
+  & > .content-area {
+    flex: 1;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+}

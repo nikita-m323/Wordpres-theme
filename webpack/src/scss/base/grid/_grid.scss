@@ -1,0 +1,8 @@
+.container, .container-lg, .container-md, .container-sm {
+  @include container-max-width(1290)
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  padding-left: 16px;
+  padding-right: 16px;
+}

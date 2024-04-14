@@ -1,0 +1,28 @@
+@import "../../scss/abstracts/variables/screen";
+
+.unsplash-slider {
+  margin: 40px 0;
+
+  &__swiper-container {
+    overflow: hidden;
+    position: relative;
+  }
+
+  &__slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  &__navigation {
+    .swiper-button-prev,
+    .swiper-button-next {
+      transform: translateY(-50%);
+    }
+  }
+}
